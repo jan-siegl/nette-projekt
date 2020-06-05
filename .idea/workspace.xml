@@ -2,49 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5dee99f-5713-428b-a00e-1a244447a07c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/latte.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Presenters/UserPresenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Presenters/templates/User/login.latte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Presenters/templates/User/register.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/HomepagePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Presenters/templates/Homepage/default.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/templates/Homepage/default.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Router/RouterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router/RouterFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsDI/FormsExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsDI/FormsExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/FormMacros.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/FormMacros.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/Runtime.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Bridges/FormsLatte/Runtime.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ControlGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ControlGroup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/BaseControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/BaseControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Button.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Button.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Checkbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/Checkbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CheckboxList.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CheckboxList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ChoiceControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ChoiceControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CsrfProtection.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/CsrfProtection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/HiddenField.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/HiddenField.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ImageButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/ImageButton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiChoiceControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiChoiceControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiSelectBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/MultiSelectBox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/RadioList.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/RadioList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SelectBox.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SelectBox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SubmitButton.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/SubmitButton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextArea.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextArea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/TextInput.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/UploadControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Controls/UploadControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IFormRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/IFormRenderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ISubmitterControl.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/ISubmitterControl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rendering/DefaultFormRenderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rendering/DefaultFormRenderer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rules.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Rules.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Validator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/Forms/Validator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/nette/forms/src/assets/netteForms.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Presenters/UserPresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Presenters/UserPresenter.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590921073055</updated>
       <workItem from="1590921074164" duration="6725000" />
-      <workItem from="1591387106490" duration="5688000" />
+      <workItem from="1591387106490" duration="6530000" />
     </task>
     <servers />
   </component>

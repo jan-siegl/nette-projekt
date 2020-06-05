@@ -4,6 +4,8 @@
 namespace App\Presenters;
 
 use Nette;
+use Tracy\Debugger;
+use Nette\Security\User;
 use Nette\Application\UI;
 
 
@@ -42,8 +44,16 @@ final class UserPresenter extends Nette\Application\UI\Presenter
     // po odeslani
     public function loginFormSucceeded(UI\Form $form, \stdClass $values): void
     {
-        // ...
-        $this->flashMessage('Byl jste úspěšně prihlasen.');
-        $this->redirect('Homepage:');
+        Debugger::barDump($values);
+
+        try {
+            $this->getUser()->login($values->username, $values->password);
+
+            $this->redirect('Homepage:default');
+            $this->flashMessage('Byl jste úspěšně prihlasen. ' . $values->username);
+
+        } catch (Nette\Security\AuthenticationException $e) {
+            $form->addError('Špatný jméno nebo heslo.');
+        }
     }
 }
