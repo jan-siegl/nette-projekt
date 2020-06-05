@@ -6,6 +6,7 @@ namespace App\Router;
 
 use Nette;
 use Nette\Application\Routers\RouteList;
+use Nette\Routing\Route;
 
 
 final class RouterFactory
@@ -16,6 +17,9 @@ final class RouterFactory
 	{
 		$router = new RouteList;
 		$router->addRoute('<presenter>/<action>[/<id>]', 'Homepage:default');
+        $router->addRoute('register', 'User:register');
+        $router->addRoute('login', 'User:login');
 		return $router;
-	}
+
+    }
 }
